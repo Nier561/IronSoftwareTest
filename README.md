@@ -84,7 +84,7 @@ Customization
 
 Author and Contact
 ------------------
-Developed by [Your Name]. For inquiries or feedback, please contact [Your Contact Information or Professional Profile].
+Developed by Ronny Severino. For inquiries or feedback, please contact ronnyseverino7@gmail.com
 
 License
 -------
