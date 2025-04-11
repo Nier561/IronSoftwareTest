@@ -101,6 +101,16 @@ namespace IronSoftwareTest
             Test("8 88777444666*664#", "TURING");
             Test("2 22 222#", "ABC");
             Test("7777 9999 33 33#", "SZEE");
+            Test("1 11 111#", "&'(");
+            Test("0#", "   "); // Single Space
+            Test("0 0 0#", "   "); // Spaces
+            Test("2222#", "A"); //Cycling back to first character
+            Test("#", "");
+            Test("*#", ""); // Backspace with nothing to delete
+            Test("22", ""); // No ending #
+            Test("22*#", ""); // One character, then backspace
+            Test("abcdefg", ""); // Random String
+            Test(null, ""); //null input
         }
 
         static void Test(string input, string expected)
